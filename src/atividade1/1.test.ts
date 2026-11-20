@@ -19,7 +19,7 @@ test("divisao", () => {
 });
 
 test("erro em divisao", () => {
-  expect(divisao(0, 0)).toThrow(Error);
+  expect(() => divisao(0, 0)).toThrow(Error);
 });
 
 // Media de nota (não relacionado com a atividade)
