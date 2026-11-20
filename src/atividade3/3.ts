@@ -1,4 +1,4 @@
 //atividade 3
-export function calculoFrete(valorFrete: number): number {
+export function calculoFrete(valorFrete: Number): Number {
   return valorFrete;
 }
